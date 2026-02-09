@@ -1,6 +1,6 @@
 #Playbook to deploy into multiple qaservers
 ---
-- name: Setup the microservices app as containers on all the qaservers
+- name: Setup the microservices app as containers on all the qaservers .
   hosts: all
   tasks:
     - name: Deploy the python voting app
